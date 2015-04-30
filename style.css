@@ -47,7 +47,74 @@ body{
 /*------------------------------------*\
     $STYLES
 \*------------------------------------*/
-header{}
+header{
+	padding-top: 20px;
+	background: #000000 url(library/img/bg-header.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 109px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+	background-size: cover;
+	border-bottom: 2px solid #ffbb13;
+	box-shadow: 1px 1px 4px gray;
+}
+.contact__header{
+	text-align: right;
+	float: right;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+	.contact__header li{
+		display: inline-block;
+		margin-right: 10px;		
+	}
+		.contact__header li a{
+			transition: all 0.5s ease;
+			 -webkit-transition: all 0.5s ease;
+			 	-moz-transition: all 0.5s ease;
+			 		-o-transition: all 0.5s ease;
+		}
+			.contact__header li a:hover{
+				opacity: 0.8;
+				transition: all 0.5s ease;
+				 -webkit-transition: all 0.5s ease;
+				 	-moz-transition: all 0.5s ease;
+				 		-o-transition: all 0.5s ease;
+			}
+
+.nav_header{
+	border: 0px;
+	text-align: right;
+	float: right;
+	margin-bottom: 0px;
+}
+	.nav_header li{
+		display: inline-block;
+	}
+		.nav_header li a{
+
+			color: #ffbb13;
+			text-decoration: none;
+			padding: 0px 5px;
+			font-size: 12px;
+			font-weight: bold;
+			letter-spacing: 0.5px;
+		}
+			.nav_header li a:hover, .nav_header li a:focus, .nav_header li a:active{
+			border-bottom: 2px solid #ffbb13;
+			}
+
+			.nav_header li a:hover:before, .nav_header li a:hover:after{
+				content:'  ' url(library/img/icon-star.png) '   ' ;
+
+			}
+
+
 
 footer{}
 
