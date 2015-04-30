@@ -26,6 +26,8 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 \*------------------------------------*/
 @import url(library/css/normalize.css);
 @import url(library/css/skeleton.css);
+@import url(library/css/owl.carousel.css);
+@import url(library/css/owl.theme.css);
 
 
 
@@ -41,7 +43,13 @@ body{
 	font-family: 'PalatinoLinotype-Roman', sans-serif;
 }
 
-
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #ffbb13;
+}
 
 
 /*------------------------------------*\
@@ -115,7 +123,15 @@ header{
 			}
 
 
+/* Content */
+.content{
+	background: url(library/img/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	height: 1000px;
 
+}
 footer{}
 
 .copyright{
