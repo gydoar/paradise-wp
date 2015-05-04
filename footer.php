@@ -10,6 +10,8 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/modernizr-custom-min.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/owl.carousel.js"></script>
+<script src="<?php bloginfo('template_url' ); ?>/library/js/jquery.fancybox.js?v=2.1.5"></script>
+<script src="<?php bloginfo('template_url' ); ?>/library/js/jquery.fancybox-media.js?v=1.0.6"></script>
 
 
 <script>
@@ -33,6 +35,29 @@
 	 
 	  });
 	 
+	});
+</script>
+
+<script>
+	$(document).ready(function() {
+
+		/*
+		 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+		*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
 	});
 </script>
 <!--/ script -->

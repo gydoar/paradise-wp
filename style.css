@@ -28,6 +28,7 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 @import url(library/css/skeleton.css);
 @import url(library/css/owl.carousel.css);
 @import url(library/css/owl.theme.css);
+@import url(library/css/jquery.fancybox.css?v=2.1.5);
 
 
 
@@ -130,8 +131,35 @@ header{
 	background-attachment: relative;
 	background-position: center center;
 	height: 1000px;
-
 }
+.video__header{
+	background: rgba(0,0,0,0.8);
+	padding: 60px 0px 40px 0px;
+	color: #ffffff;
+	text-align: justify;
+}
+	.video__header div:first-child{
+		padding-top: 20px;
+	}
+	.video__header h2{
+		font-size: 28px;
+		line-height: 0px;
+	}
+	.video__header p{
+		font-size: 12px;
+		color: #cecfd4;
+		line-height: 16px;
+		font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.under--line{
+	border-bottom: 1px solid #ffbb13;
+	margin-bottom: 20px;
+}
+
+
+
+
+/* foter */
 footer{}
 
 .copyright{
