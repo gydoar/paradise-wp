@@ -25,10 +25,10 @@
 					<p>Nuestras acompañantes dejarán volar sus fantasías con su encanto; ellas harán que una fiesta sea la mejor que hayas tenido o simplemente solicítalas para satisfacer tus necesidades carnales, estamos seguros que superarán tus expectativas.<br><br>Con nuestras PARADISE ESCORTS en Bogotá, harás realidad tus deseos más salvajes.</p>
 				</div>
 				<div class="four columns">
-					<a class="fancybox-media" href="https://vimeo.com/47480346"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
+					<a class="fancybox-media" href="https://vimeo.com/126855036"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
 				</div>
 				<div class="four columns">
-					<a class="fancybox-media" href="https://vimeo.com/47480346"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
+					<a class="fancybox-media" href="https://vimeo.com/126855036"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
 				</div>
 			</div>
 		</div>
@@ -44,23 +44,129 @@
 					<div class="three columns">
 						<a href="#">
 							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<span class="caja">ANDREA</span>
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
 						</a>	
 
 					</div>
 
 					<div class="three columns">
-						<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt=""></a>		
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
+
+					</div>
+					<div class="three columns">
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
+
+					</div>
+					<div class="three columns">
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
+
+					</div>
+
+
+					<!-- Bloque 2 -->
+				<div class="">
+					<div class="three columns">
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
+
 					</div>
 
 					<div class="three columns">
-						<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt=""></a>		
-					</div>
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
 
-					<div class="three columns">
-						<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt=""></a>		
 					</div>
+					<div class="three columns">
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
+
+					</div>
+					<div class="three columns">
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
+
+					</div>					
+
 				</div>
+				
+					<!-- Bloque 3 -->
+				<div class="">
+					<div class="three columns">
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
+
+					</div>
+
+					<div class="three columns">
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
+
+					</div>
+					<div class="three columns">
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
+
+					</div>
+					<div class="three columns">
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<div class="caja__nombre">
+								<a href="">ANDREA</a>
+							</div>
+						</a>	
+
+					</div>		
+
+				</div>
+
+
+				</div>
+				<div class="ornament-top"><img width="270" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-bottom.png" alt="">
 			</div>
 		</div>
 

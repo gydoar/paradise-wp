@@ -131,6 +131,13 @@ header{
 	background-attachment: fixed;
 	background-position: center center;
 	min-height: 1000px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+	background-size: cover;
+
 }
 .video__header{
 	background: rgba(0,0,0,0.9);
@@ -166,7 +173,11 @@ header{
 	border-bottom: 1px solid #ffbb13;
 	margin-bottom: 20px;
 }
+.under--line--footer{
+	border-bottom: 1px solid #ffbb13;
 
+
+}
 .bg--acompanantes{
 background: -moz-linear-gradient(top,  rgba(0,0,0,0.87) 0%, rgba(0,0,0,0.73) 48%, rgba(0,0,0,0.64) 75%, rgba(0,0,0,0.38) 92%, rgba(0,0,0,0.35) 93%, rgba(0,0,0,0.14) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.87)), color-stop(48%,rgba(0,0,0,0.73)), color-stop(75%,rgba(0,0,0,0.64)), color-stop(92%,rgba(0,0,0,0.38)), color-stop(93%,rgba(0,0,0,0.35)), color-stop(100%,rgba(0,0,0,0.14))); /* Chrome,Safari4+ */
@@ -193,26 +204,110 @@ min-height:1000px;
 	border-top: 1px solid #ffbb13;
 	border-bottom: 1px solid #ffbb13;
 	background: rgba(0,0,0,0.7);
-	height: 500px;
+	height: 950px;
+	position: relative;
 }
 	.chichas--acompanantes div{
 		text-align: center;
 	}
-.caja{
-	background: url(library/img/caja.png);
-	padding-top: -50px;
-	height: 76px;
-	width: 100%;
-	z-index: 400;
-}
-	.caja a{
-		text-align: center;
-		float: center;
-		text-decoration: none;
+	.chichas--acompanantes img{
+		overflow: hidden;
+		opacity: 0.5;
+		transition: all 0.5s linear;
+				-webkit-transition: all 0.5s linear;
+					-moz-transition: all 0.5s linear;
+						-o-transition: all 0.5s linear;
 	}
-/* foter */
-footer{}
+		.chichas--acompanantes img:hover{
+			opacity: 1;
+			transition: all 0.5s linear;
+				-webkit-transition: all 0.5s linear;
+					-moz-transition: all 0.5s linear;
+						-o-transition: all 0.5s linear;
+		}
+		.caja__nombre{
+			background: url(library/img/caja.png);
+			background-repeat: no-repeat;
+			background-attachment: relative;
+			background-size: 100%;
+			width: 100%;
+			min-height: 60px;
+			margin-top: -68px;
+			position: relative;
+			text-align: center;
+			float: center;
+			padding-top: 20px;
+		}
+			.caja__nombre a{
+				text-decoration: none;
+				margin-top: 1000px;
+				text-align: center;
+				z-index: 300;
+				font-size: 20px;
+				color: #ffbb13;
+				letter-spacing: 2px;
+				font-weight: bold;
+			}
 
+/* foter */
+footer{
+	border-top: 5px solid #ffbb13;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 40px 0px;
+}
+	footer h3{
+		font-family: 'PalatinoLinotype-Roman', sans-serif;
+		letter-spacing: 1px;
+		font-size: 18px;
+		margin-bottom: 3px;
+		margin-left: 20px;
+	}
+.nav_footer{
+	padding-top: 20px;
+}
+	.nav_footer li{
+		list-style: none;
+		margin-bottom: 0px;
+	}
+		.nav_footer li a{
+			text-decoration: none;
+			color: #ffffff;		
+		}
+			.nav_footer li a:hover, .contact__footer li a:hover, .social__footer li a:hover{
+				color: #ffbb32;
+			}
+.contact__footer, .social__footer{
+	padding-top: 20px;
+}
+	.contact__footer li a, .social__footer li a{
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.contact__footer li:first-child{
+		 list-style-image: url(library/img/icon-map.png);
+	}
+	.contact__footer li:last-child{
+		 list-style-image: url(library/img/icon-whatsapp.png);
+	}
+	.contact__footer li:nth-child(2){
+		 list-style-image: url(library/img/icon-mail.png);
+	}
+	.contact__footer li:nth-child(3){
+		 list-style-image: url(library/img/icon-skype.png);
+	}
+
+	.social__footer li:first-child{
+		list-style-image: url(library/img/icon-facebook-footer.png);
+	}
+	.social__footer li:last-child{
+		list-style-image: url(library/img/icon-instagram-footer.png);
+	}
+	.social__footer li:nth-child(2){
+		list-style-image: url(library/img/icon-twitter-footer.png);
+	}
+	
 .copyright{
     background: #32a7d1;
     font-size: 12px;

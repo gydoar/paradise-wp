@@ -1,4 +1,37 @@
 
+<footer>
+	<div class="container">
+		<div class="ten columns offset-by-one">
+
+			<div class="three columns">
+				<h3>NAVEGACIÓN</h3>
+				<div class="under--line--footer"></div>
+				<?php wp_nav_menu(array('theme_location' => 'footer-menu', 'container' => 'nav', 'container_class' => 'nav', 'menu_class' => 'nav_footer') ); ?>
+			</div>
+
+			<div class="five columns">
+				<h3>CONTACTO</h3>
+				<div class="under--line--footer"></div>
+				<ul class="contact__footer">
+					<li><a href="#">Bogotá - Colombia</a></li>
+					<li><a href="mailto:info@escortsbogota.co">info@escortsbogota.co</a></li>
+					<li><a href="skype:skype:@paradise_bogota?call">Paradise_Bogota</a></li>
+					<li><a href="#">(+57 1) 316 538 1492 - 319 560 8351</a></li>
+				</ul>
+			</div>
+
+			<div class="four columns">
+				<h3>SOCIAL</h3>
+				<div class="under--line--footer"></div>
+				<ul class="social__footer">
+					<li><a target="_blank" href="https://www.facebook.com/pages/Paradise-Escorts-Bogotá-18/1602073993344060">Paradise_Bogota</a></li>
+					<li><a target="_blank" href="https://twitter.com/Paradise_Bogota">@Paradise_Bogota</a></li>
+					<li><a target="_blank" href="https://instagram.com/paradise_bogota/">Paradise_Bogota</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
 
 <div class="copyright">
 	<p>Hecho con&nbsp;<img width="8" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;por <a target="_blank" href="http://suwwweb.com">Suwwweb</a></p>
