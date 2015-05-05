@@ -34,7 +34,7 @@
 </footer>
 
 <div class="copyright">
-	<p>Hecho con&nbsp;<img width="8" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;por <a target="_blank" href="http://suwwweb.com">Suwwweb</a></p>
+	<p><span>&copy; <?php bloginfo('name' ); ?></span> -  Hecho con&nbsp;<img width="8" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;por <a target="_blank" href="http://suwwweb.com">suWWWeb</a></p>
 </div>
 
 

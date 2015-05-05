@@ -139,6 +139,19 @@ header{
 	background-size: cover;
 
 }
+.content__portfolio{
+	background: url(library/img/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	min-height: 1531px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+	background-size: cover;
+}
 .video__header{
 	background: rgba(0,0,0,0.9);
 	padding: 40px 0px 40px 0px;
@@ -173,12 +186,13 @@ header{
 	border-bottom: 1px solid #ffbb13;
 	margin-bottom: 20px;
 }
+.under--line--portfolio{
+	border-bottom: 2px solid #ffbb13;
+}
 .under--line--footer{
 	border-bottom: 1px solid #ffbb13;
-
-
 }
-.bg--acompanantes{
+.bg--acompanantes, .bg--portfolio{
 background: -moz-linear-gradient(top,  rgba(0,0,0,0.87) 0%, rgba(0,0,0,0.73) 48%, rgba(0,0,0,0.64) 75%, rgba(0,0,0,0.38) 92%, rgba(0,0,0,0.35) 93%, rgba(0,0,0,0.14) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.87)), color-stop(48%,rgba(0,0,0,0.73)), color-stop(75%,rgba(0,0,0,0.64)), color-stop(92%,rgba(0,0,0,0.38)), color-stop(93%,rgba(0,0,0,0.35)), color-stop(100%,rgba(0,0,0,0.14))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  rgba(0,0,0,0.87) 0%,rgba(0,0,0,0.73) 48%,rgba(0,0,0,0.64) 75%,rgba(0,0,0,0.38) 92%,rgba(0,0,0,0.35) 93%,rgba(0,0,0,0.14) 100%); /* Chrome10+,Safari5.1+ */
@@ -188,6 +202,10 @@ background: linear-gradient(to bottom,  rgba(0,0,0,0.87) 0%,rgba(0,0,0,0.73) 48%
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de000000', endColorstr='#24000000',GradientType=0 ); /* IE6-9 */
 
 min-height:1000px; 
+}
+
+.bg--portfolio{
+	min-height:1531px;
 }
 
 	.ornament-top{
@@ -249,13 +267,41 @@ min-height:1000px;
 				font-weight: bold;
 			}
 
-/* foter */
+/* Portfolio de chicas */
+.portfolio{
+	color: #ffbb13;
+	padding: 60px 0px; 
+}
+	.portfolio img{
+		margin-top: 10px;
+	}
+	.portfolio h3{
+		margin: 0px;
+		padding: 10px 0px;
+	}
+.tarifas{
+	background-color: rgba(0,0,0,0.8);
+	padding: 30px 20px 20px 20px;
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+	.tarifas h4{
+		margin: 0px;
+		font-size: 26px;
+		letter-spacing: 0.5px;
+		font-family: 'PalatinoLinotype-Roman';
+	}
+	.tarifas__list li{
+		list-style: none;
+		margin: 0px;
+		font-size: 12px;
+	}
+/* footer */
 footer{
 	border-top: 5px solid #ffbb13;
 	background-color: #000000;
 	color: #ffffff;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	padding: 40px 0px;
+	padding: 40px 0px 20px 0px;
 }
 	footer h3{
 		font-family: 'PalatinoLinotype-Roman', sans-serif;
@@ -309,16 +355,50 @@ footer{
 	}
 	
 .copyright{
-    background: #32a7d1;
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #ffbb32; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffbb32 0%, #daa02b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffbb32), color-stop(100%,#daa02b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffbb32 0%,#daa02b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffbb32 0%,#daa02b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffbb32 0%,#daa02b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffbb32 0%,#daa02b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbb32', endColorstr='#daa02b',GradientType=0 ); /* IE6-9 */
+	border-top:  1px solid #000000;
     font-size: 12px;
 	text-align: center;
+	padding: 10px 0px;
+	font-weight: 700;
 }
-.copyright a{
-    color: #000000;
-	text-decoration: none;
-	
-}
+	.copyright span{
+		font-weight: bold;
+	}
+	.copyright p{
+		margin-bottom: 0px;
+	}
+	.copyright a{
+	    color: #000000;
+		text-decoration: none;
+		
+	}
 
+/* Footer widget */
+.footer--widget{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background: url(library/img/fondo-widget.png);
+	background-repeat: no-repeat;
+	min-height: 281px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+
+}
+	.footer--widget div:first-child{
+		padding: 20px 0px 0px 20px;
+	}
 
 img{
 	max-width: 100%;
