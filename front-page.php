@@ -16,6 +16,7 @@
 	<!-- Content -->
 
 	<div class="content">
+		<!-- Videos header --> 
 		<div class="video__header">
 			<div class="container">
 				<div class="four columns">
@@ -27,10 +28,43 @@
 					<a class="fancybox-media" href="https://vimeo.com/47480346"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
 				</div>
 				<div class="four columns">
-					<a href="#"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
+					<a class="fancybox-media" href="https://vimeo.com/47480346"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
 				</div>
 			</div>
 		</div>
+
+		<!-- Acompañanates inicio -->
+		<div class="bg--acompanantes">
+			<div class="container">
+				<div class="ornament-top"><img width="548" src="<?php bloginfo('template_url' ); ?>/library/img/ornament_top.png" alt="">
+					<h2>Acompañantes</h2>
+				</div>
+	
+				<div class="chichas--acompanantes">
+					<div class="three columns">
+						<a href="#">
+							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
+							<span class="caja">ANDREA</span>
+						</a>	
+
+					</div>
+
+					<div class="three columns">
+						<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt=""></a>		
+					</div>
+
+					<div class="three columns">
+						<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt=""></a>		
+					</div>
+
+					<div class="three columns">
+						<a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt=""></a>		
+					</div>
+				</div>
+			</div>
+		</div>
+
+
 		
 	</div>
 
