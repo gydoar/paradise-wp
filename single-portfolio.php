@@ -3,6 +3,7 @@
 	<div class="content__portfolio">
 		<div class="bg--portfolio">
 			<div class="container portfolio">
+				<?php rewind_posts(); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<?php include('variables.php'); ?>
 				<!-- Inicio del Loop -->
@@ -11,7 +12,12 @@
 							<h3><?php the_title(); ?></h3>
 						</div>
 							<div class="under--line--portfolio"></div>
-								<?php if (has_post_thumbnail()) {the_post_thumbnail('scorts-thumbnails');} ?>
+
+							<?php $url = wp_get_attachment_url( get_post_thumbnail_id($portfolio->ID) );?>
+							
+							<a class="fancybox-effects-d" href="<?php echo $url; ?>"><?php if (has_post_thumbnail()) {the_post_thumbnail('scorts-thumbnails');} ?></a>
+							
+								
 							<div class="under--line--portfolio"></div>
 
 							<div class="tarifas">
@@ -132,11 +138,61 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="eight columns portfolio__galeria">
+
+						<p>
+
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'one-image',
+								        set_post_thumbnail_size( 54, 65, true )
+								    );
+								endif; ?>
+
+							</a>
+
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'two-image',
+								        set_post_thumbnail_size( 54, 65, true )
+								    );
+								endif; ?>
+
+							</a>
+
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'three-image',
+								        set_post_thumbnail_size( 54, 65, true )
+								    );
+								endif; ?>
+
+							</a>
+
+							
+						</p>
+
+						
+					</div>
 				<!-- Fin del loop -->
 				<?php endwhile; else : ?>
 					<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 				<?php endif; ?>
 			</div>
+			<div class="container">
+				<?php get_footer('widget'); ?>
+			</div>
+			
 		</div>
 	</div>
 

@@ -20,6 +20,80 @@ register_nav_menus(
 add_theme_support('post-thumbnails' );
 add_image_size('img_1', 352, 532, true );
 
+
+if (class_exists('MultiPostThumbnails')) {
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 1',
+            'id' => 'one-image',
+            'post_type' => 'portfolio'
+        )
+    );
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 2',
+            'id' => 'two-image',
+            'post_type' => 'portfolio'
+        )
+    );
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 3',
+            'id' => 'three-image',
+            'post_type' => 'portfolio'
+        )
+    );
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 4',
+            'id' => 'four-image',
+            'post_type' => 'portfolio'
+        )
+    );
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 5',
+            'id' => 'five-image',
+            'post_type' => 'portfolio'
+        )
+    );
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 6',
+            'id' => 'six-image',
+            'post_type' => 'portfolio'
+        )
+    );
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 7',
+            'id' => 'sevent-image',
+            'post_type' => 'portfolio'
+        )
+    );
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 8',
+            'id' => 'eight-image',
+            'post_type' => 'portfolio'
+        )
+    );
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 9',
+            'id' => 'nine-image',
+            'post_type' => 'portfolio'
+        )
+    );
+    new MultiPostThumbnails(
+        array(
+            'label' => 'Imagen 10',
+            'id' => 'ten-image',
+            'post_type' => 'portfolio'
+        )
+    );
+}
+
 /*------------------------------------*\
     $HABILITAR CUSTON POST EN EL LOOP
 \*------------------------------------*/
@@ -32,6 +106,8 @@ function my_get_posts( $query ) {
 
     return $query;
 }
+
+
 /*------------------------------------*\
     $HABILITAR PORTFOLIO DE CHICAS
 \*------------------------------------*/
