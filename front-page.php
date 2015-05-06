@@ -167,7 +167,7 @@
 
 				</div>
 				<div class="ornament-top"><img width="270" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-bottom.png" alt="">
-			</div>
+				</div>
 		<div>
 			<?php get_footer("widget"); ?>
 		</div>

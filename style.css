@@ -144,7 +144,7 @@ header{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
-	min-height: 1531px;
+	min-height: 1000px;
 	width: 100%;
 	background-size: 100%;
 		-webkit-background-size: 100%;
@@ -205,7 +205,7 @@ min-height:1000px;
 }
 
 .bg--portfolio{
-	min-height:1531px;
+	min-height:1000px;
 }
 
 	.ornament-top{
@@ -280,8 +280,10 @@ min-height:1000px;
 		padding: 10px 0px;
 	}
 .tarifas{
+	margin-bottom: -10px;
+	border-bottom: 3px solid #ffbb13;
 	background-color: rgba(0,0,0,0.8);
-	padding: 30px 20px 20px 20px;
+	padding: 30px 20px 10px 20px;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 	.tarifas h4{
@@ -295,6 +297,37 @@ min-height:1000px;
 		margin: 0px;
 		font-size: 12px;
 	}
+	.tarifas ul{
+		padding-top: 5px;
+	}
+	.tarifas ul:last-child li{
+		color: #ffffff;
+	}
+	.tarifas li:first-child{
+		border-bottom: 1px solid #2f2f2f;
+	}
+
+/* Datos modelo bloque Derecho portfolio */
+.datos__modelo{
+	letter-spacing: 1px;
+	padding-top: 100px;
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+	.datos__modelo h4{
+		font-family: 'PalatinoLinotype-Roman', sans-serif;
+	}
+.datos__modelo__list li{
+	margin-bottom: 0px;
+	list-style: none;
+	border-bottom: 1px solid #2f2f2f;	
+	font-size: 14px;
+}
+
+.desc__portfolio{
+	text-align: justify;
+	font-size: 12px;
+	color: #ffffff;
+}
 /* footer */
 footer{
 	border-top: 5px solid #ffbb13;

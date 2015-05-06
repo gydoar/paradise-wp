@@ -202,14 +202,7 @@ $meta_box = array(
  'type' => 'text',
  'std' => 'Colombiana'
  ),
-   array(
- 'name' => 'Nacionalidad',
- 'desc' => '',
- 'id' => 'nacionalidad',
- 'type' => 'text',
- 'std' => 'Colombiana'
- ),
-    array(
+  array(
  'name' => 'Ciudad de Nac',
  'desc' => '',
  'id' => 'ciudad_nac',
@@ -224,9 +217,9 @@ $meta_box = array(
  'std' => 'Deportista'
  ),
   array(
- 'name' => 'Cirujias',
+ 'name' => 'Cirugias',
  'desc' => '',
- 'id' => 'cirujias',
+ 'id' => 'cirugias',
  'type' => 'text',
  'std' => 'No'
  ),
@@ -373,21 +366,21 @@ $meta_box = array(
  array(
  'name' => '15 Minutos chat',
  'desc' => '',
- 'id' => 'one_minutes_chat',
+ 'id' => 'fifteen_minutes_chat',
  'type' => 'text',
  'std' => '$ 35.000'
  ),
   array(
  'name' => '1 hora chat',
  'desc' => '',
- 'id' => 'two_hora_chat',
+ 'id' => 'one_hora_chat',
  'type' => 'text',
  'std' => '$ 120.000'
  ),
   array(
  'name' => '30 minutos chat',
  'desc' => '',
- 'id' => 'three_minutes_chat',
+ 'id' => 'thirty_minutes_chat',
  'type' => 'text',
  'std' => '$ 65.000'
  ),
