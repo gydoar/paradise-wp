@@ -15,6 +15,8 @@
  	</title>
  	<meta name="description" content="<?php bloginfo('description' ); ?>">
 
+ 	<meta name="google-translate-customization" content="46b41c1a93db7574-d5388cbf38c04b28-g2915ce2afd6f089a-14"></meta>
+
  	<link rel="apple-touch-icon" href="<?php bloginfo('template_url' ); ?>/library/img/apple-touch-icon.png">
  	<link rel="icon" type="image/png" href="<?php bloginfo('template_url' ); ?>/library/img/favicon.png">
 
@@ -29,7 +31,11 @@
 
 </head>
 <body>
-
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	<header>
 		<div class="container">
 			<div class="four columns">
