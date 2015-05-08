@@ -355,12 +355,15 @@ min-height:1000px;
 .page h4{
 	font-size: 18px;
 }
+.page strong, .page  a{
+	color: #ffbb13;	
+}
 .page p{
 	font-size: 12px;
 	color: #cecfd4;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.page ul{
+.page ul, .page ol{
 	font-size: 12px;
 	color: #ffbb13;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
