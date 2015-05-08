@@ -382,6 +382,13 @@ min-height:1000px;
 }
 #imagenFlotante a img { border: none; }
 
+/* Google traslate */
+.goog-te-gadget-simple{
+	position: absolute;
+	float: right;
+	text-align: right;
+}
+
 /* footer */
 footer{
 	border-top: 5px solid #ffbb13;
