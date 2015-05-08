@@ -53,3 +53,9 @@
 			
 		</div>
 	</header>
+
+	<div id='imagenFlotante'>
+	  <a href="<?php echo home_url('/trabaje-con-nosotros' ); ?>">
+	    <img src="<?php bloginfo('template_url' ); ?>/library/img/btn-trabaje.png"/>
+	  </a>
+	</div>

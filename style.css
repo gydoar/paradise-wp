@@ -357,7 +357,7 @@ min-height:1000px;
 }
 .page p{
 	font-size: 12px;
-	color: #ffffff;
+	color: #cecfd4;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .page ul{
@@ -365,6 +365,20 @@ min-height:1000px;
 	color: #ffbb13;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/* Imagen flotante */
+#imagenFlotante {
+  z-index: 100;
+  bottom:200px;
+  right:0px;
+  position: fixed;
+  _position:absolute;
+  clip:inherit;
+  _top:expression(document.documentElement.scrollTop+document.documentElement.clientHeight-this.clientHeight);
+  _right:expression(document.documentElement.scrollLeft+ document.documentElement.clientWidth - offsetWidth);
+}
+#imagenFlotante a img { border: none; }
+
 /* footer */
 footer{
 	border-top: 5px solid #ffbb13;
