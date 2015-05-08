@@ -23,6 +23,7 @@
 	$permite_besos = get_post_meta(get_the_id(),'permite_besos',TRUE);
 	$trio_mhm = get_post_meta(get_the_id(),'trio_mhm',TRUE);
 	$trio_hmh = get_post_meta(get_the_id(),'trio_hmh',TRUE);
+	$anal = get_post_meta(get_the_id(),'anal',TRUE);
 	$juguetes_sexuales = get_post_meta(get_the_id(),'juguetes_sexuales',TRUE);
 	$lluvia_dorada = get_post_meta(get_the_id(),'lluvia_dorada',TRUE);
 	$zona_servicio = get_post_meta(get_the_id(),'zona_servicio',TRUE);

@@ -139,7 +139,7 @@ header{
 	background-size: cover;
 
 }
-.content__portfolio{
+.content__portfolio, .page{
 	background: url(library/img/bg-2.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -204,6 +204,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de000000', e
 min-height:1000px; 
 }
 
+.bg__page{
+	background: rgba(0,0,0,0.8);
+	min-height: 1000px;
+	padding: 40px 0px;
+}
 .bg--portfolio{
 	min-height:1000px;
 }
@@ -308,13 +313,22 @@ min-height:1000px;
 	}
 
 /* Datos modelo bloque Derecho portfolio */
-.datos__modelo{
+.datos__modelo, .datos__modelo__comple{
 	letter-spacing: 1px;
 	padding-top: 100px;
+	font-size: 12px;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 	.datos__modelo h4{
 		font-family: 'PalatinoLinotype-Roman', sans-serif;
+	}
+
+.datos__modelo__comple{
+	padding-top: 0px;
+	
+}
+	.datos__modelo__comple ul li, .datos__modelo ul li{
+		font-size: 12px;
 	}
 .datos__modelo__list li{
 	margin-bottom: 0px;
@@ -327,6 +341,21 @@ min-height:1000px;
 	text-align: justify;
 	font-size: 12px;
 	color: #ffffff;
+}
+
+/* Page */
+
+.page h2, .page h3{
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.page h3{
+	font-size: 26px;
+}
+.page p{
+	font-size: 12px;
+	color: #ffffff;
+	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /* footer */
 footer{

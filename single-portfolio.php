@@ -15,7 +15,7 @@
 
 							<?php $url = wp_get_attachment_url( get_post_thumbnail_id($portfolio->ID) );?>
 							
-							<a class="fancybox-effects-d" href="<?php echo $url; ?>"><?php if (has_post_thumbnail()) {the_post_thumbnail('scorts-thumbnails');} ?></a>
+							<a class="fancybox-effects-d" href="<?php echo $url; ?>"><?php if (has_post_thumbnail()) {the_post_thumbnail('img_1');} ?></a>
 							
 								
 							<div class="under--line--portfolio"></div>
@@ -138,12 +138,13 @@
 							</div>
 						</div>
 					</div>
-
+						
+					<!-- Portfolio Galeria -->
 					<div class="eight columns portfolio__galeria">
 
 						<p>
 
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
 
 								<?php if (class_exists('MultiPostThumbnails')) :
 								    MultiPostThumbnails::the_post_thumbnail(
@@ -155,7 +156,7 @@
 
 							</a>
 
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
 
 								<?php if (class_exists('MultiPostThumbnails')) :
 								    MultiPostThumbnails::the_post_thumbnail(
@@ -167,7 +168,7 @@
 
 							</a>
 
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet">
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
 
 								<?php if (class_exists('MultiPostThumbnails')) :
 								    MultiPostThumbnails::the_post_thumbnail(
@@ -179,10 +180,159 @@
 
 							</a>
 
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
+
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'four-image',
+								        set_post_thumbnail_size( 54, 65, true )
+								    );
+								endif; ?>
+
+							</a>
+
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
+
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'five-image',
+								        set_post_thumbnail_size( 54, 65, true )
+								    );
+								endif; ?>
+
+							</a>
+
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
+
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'six-image',
+								        set_post_thumbnail_size( 54, 65, true )
+								    );
+								endif; ?>
+
+							</a>
+
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
+
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'sevent-image',
+								        set_post_thumbnail_size( 54, 65, true )
+								    );
+								endif; ?>
+
+							</a>
+
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
+
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'eight-image',
+								        set_post_thumbnail_size( 54, 65, true )
+								    );
+								endif; ?>
+
+							</a>
+
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
+
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'nine-image',
+								        set_post_thumbnail_size( 54, 65, true )
+								    );
+								endif; ?>
+
+							</a>
+
+							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
+
+								<?php if (class_exists('MultiPostThumbnails')) :
+								    MultiPostThumbnails::the_post_thumbnail(
+								        get_post_type(),
+								        'ten-image',
+								        set_post_thumbnail_size( 54, 65, true )
+								    );
+								endif; ?>
+
+							</a>
+
 							
 						</p>
 
 						
+					</div>
+
+					<!-- Datos complementarios -->
+
+					<div class="eight columns datos__modelo__comple">
+						<div class="under--line--footer"><br><br></div><br><br>
+						<div class="row">
+							
+							<div class="six columns">
+								<div class="row">
+									<div class="six columns">
+										<ul class="twelve columns datos__modelo__list">
+											<li>SEXO ORAL:</li>
+											<li>SEXO ORAL NAT:</li>
+											<li>SEXO ORAL MUT</li>
+											<li>ATENCIÓN A MUJ:</li>
+											<li>ATENCIÓN A PAREJ:</li>
+											<li>PERMITE BESOS:</li>
+											<li>TRIO MHM:</li>
+											<li>TRIO HMH:</li>
+										</ul>
+									</div>
+									<div class="six columns">
+										<ul style="color:#ffffff; text-align:center;"class="twelve columns datos__modelo__list">
+											<li><?php echo $sexo_oral; ?></li>
+											<li><?php echo $sexo_oral_natural; ?></li>
+											<li><?php echo $sexo_oral_mutuo; ?></li>
+											<li><?php echo $atencion_mujeres; ?></li>
+											<li><?php echo $atencion_parejas; ?></li>
+											<li><?php echo $permite_besos; ?></li>
+											<li><?php echo $trio_mhm; ?></li>
+											<li><?php echo $trio_hmh; ?></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="six columns">
+								<div class="row">
+									<div class="six columns">
+										<ul class="twelve columns datos__modelo__list">
+											<li>ANAL:</li>
+											<li>JUGUETES SEX:</li>
+											<li>LLUVIA DORADA:</li>
+											<li>ZONA SUGERIDA:</li>
+											<li>DEPEDIDA DE SOL:</li>
+											<li>SALIDAS FUERA:</li>
+											<li>SERVICIO NOVIA:</li>
+										</ul>
+									</div>
+									<div class="six columns">
+										<ul style="color:#ffffff; text-align:center;"class="twelve columns datos__modelo__list">
+											<li><?php echo $anal; ?></li>
+											<li><?php echo $juguetes_sexuales; ?></li>
+											<li><?php echo $lluvia_dorada; ?></li>
+											<li><?php echo $zona_servicio; ?></li>
+											<li><?php echo $despedida_soltero; ?></li>
+											<li><?php echo $salidas_ciudad; ?></li>
+											<li><?php echo $servicio_novia; ?></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
 					</div>
 				<!-- Fin del loop -->
 				<?php endwhile; else : ?>

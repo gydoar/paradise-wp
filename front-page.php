@@ -41,131 +41,73 @@
 				</div>
 	
 				<div class="chichas--acompanantes">
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
 
-					</div>
+					<!-- Bloque 1 -->
+					<?php rewind_posts(); ?>
+					<?php global $wp_query;
+					$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=4");
+					
+					while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
+						<div class="three columns">
+							<a href="<?php the_permalink(); ?>">
+								<?php if (has_post_thumbnail()) {the_post_thumbnail('img_1');} ?>
+								<div class="caja__nombre">
+									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+								</div>
+							</a>	
 
-					</div>
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
+						</div>
 
-					</div>
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
-
-					</div>
-
+					<?php endwhile; ?>
 
 					<!-- Bloque 2 -->
-				<div class="">
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
+					<?php rewind_posts(); ?>
+					<?php global $wp_query;
+					$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=8&showposts=4&offset=4");
+					
+					while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
-					</div>
+						<div class="three columns">
+							<a href="<?php the_permalink(); ?>">
+								<?php if (has_post_thumbnail()) {the_post_thumbnail('img_1');} ?>
+								<div class="caja__nombre">
+									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+								</div>
+							</a>	
 
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
+						</div>
 
-					</div>
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
+					<?php endwhile; ?>
 
-					</div>
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
 
-					</div>					
-
-				</div>
-				
 					<!-- Bloque 3 -->
-				<div class="">
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
+					<?php rewind_posts(); ?>
+					<?php global $wp_query;
+					$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=-1&showposts=4&offset=8");
+					
+					while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
-					</div>
+						<div class="three columns">
+							<a href="<?php the_permalink(); ?>">
+								<?php if (has_post_thumbnail()) {the_post_thumbnail('img_1');} ?>
+								<div class="caja__nombre">
+									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+								</div>
+							</a>	
 
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
+						</div>
 
-					</div>
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
-
-					</div>
-					<div class="three columns">
-						<a href="#">
-							<img src="<?php bloginfo('template_url' ); ?>/library/img/img_sara.png" alt="">
-							<div class="caja__nombre">
-								<a href="">ANDREA</a>
-							</div>
-						</a>	
-
-					</div>		
+					<?php endwhile; ?>
 
 				</div>
 
 
-				</div>
+				<!-- Bloque 2 -->
+
+
+
+
 				<div class="ornament-top"><img width="270" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-bottom.png" alt="">
 				</div>
 		<div>

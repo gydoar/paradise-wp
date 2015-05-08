@@ -33,7 +33,7 @@
 	<header>
 		<div class="container">
 			<div class="four columns">
-				<a href=""><img src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a>
+				<a href="<?php echo home_url('/' ); ?>"><img src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a>
 			</div>
 			<div class="seven columns offset-by-one">
 				<ul class="contact__header">
