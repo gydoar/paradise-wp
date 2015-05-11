@@ -90,7 +90,8 @@
 
                 <form action="<?php the_permalink(); ?>" id="contactForm" method="post">
                     <fieldset>
-                        <div class="form-group">
+                    	<div class="six columns">
+                    		 <div class="form-group">
 
                             <input class="form-control" type="text" name="contactName" id="contactName" value="" placeholder="Nombre" />
                             <span class="input-icon fui-check-inverted"></span>
@@ -110,7 +111,10 @@
 
                              <br>
                         </div>
-                        <div class="form-group">
+                    	</div>
+                       
+                       <div class="six columns">
+                       		 <div class="form-group">
 
                             <input class="form-control" type="text" name="telefono" id="telefono" value="" placeholder="Teléfono" />
                             <span class="input-icon fui-check-inverted"></span>
@@ -128,6 +132,8 @@
                             <?php } ?>
                              <br>
                         </div>
+                       </div>
+                       
                         <div class="form-actions">
                             <button style="float:right;"type="submit" class="btn btn-success button-primary">Enviar</button>
                         </div>

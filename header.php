@@ -31,7 +31,9 @@
 
 </head>
 <body>
-<div id="google_translate_element"></div><script type="text/javascript">
+<div style="position:r" id="google_translate_element"></div>
+
+<script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }

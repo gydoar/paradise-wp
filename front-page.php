@@ -116,4 +116,17 @@
 		</div>	
 	</div>
 
+	<!-- Popup -->
+	<div class="popup_inicio" id="hidden_link">
+		
+		<p>!MUY IMPORTANTE! ESTE SITIO CONTIENE MATERIAL PARA ADULTOS E IMÁGENES DE SEXO. <br><br>
+
+			Sólo puede entrar en este sitio web si es mayor de 18 años de edad, o al menos la mayoría de edad en la jurisdicción donde usted reside o del que se accede a esta página web. Si usted no cumple con estos requisitos, entonces usted NO ESTÁ AUTORIZADO, Y NO DEBE INGRESAR a este sitio web.</p>
+
+		<div class="marco_18">
+			<a href="close">SOY MAYOR DE 18 AÑOS</a>
+		</div>
+		<a href="">No entrar</a>
+	</div>
+
 <?php get_footer(); ?>

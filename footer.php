@@ -117,6 +117,12 @@
 			$('.fancybox').fancybox();
 			
 </script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#hidden_link").fancybox().trigger('click');
+    });
+</script>
 <!--/ script -->
 
 <!-- Scripts Adiconales -->
