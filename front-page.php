@@ -116,7 +116,7 @@
 		</div>	
 	</div>
 
-	<!-- Popup -->
+	<!-- Popup 
 	<div class="popup_inicio" id="hidden_link">
 		
 		<p>!MUY IMPORTANTE! ESTE SITIO CONTIENE MATERIAL PARA ADULTOS E IMÁGENES DE SEXO. <br><br>
@@ -127,6 +127,6 @@
 			<a href="close">SOY MAYOR DE 18 AÑOS</a>
 		</div>
 		<a href="">No entrar</a>
-	</div>
+	</div> -->
 
 <?php get_footer(); ?>
