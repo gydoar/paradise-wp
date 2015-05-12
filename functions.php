@@ -21,6 +21,7 @@ add_theme_support('post-thumbnails' );
 add_image_size('img_1', 352, 532, true );
 add_image_size('img_2', 256, 387, true );
 add_image_size('noticias', 254, 177, false );
+add_image_size('noticias_widget', 80, 80, false );
 
 
 if (class_exists('MultiPostThumbnails')) {

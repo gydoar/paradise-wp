@@ -166,7 +166,7 @@ header{
 
 }
 .content__portfolio, .page{
-	background: url(library/img/bg-2.jpg);
+	background: url(library/img/bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
@@ -414,7 +414,33 @@ min-height:1000px;
 	float: right;
 	text-align: right;
 }
+.noticias_img{
+	background: url(library/img/noticias.png);
+	background-repeat: no-repeat;
+	min-height: 52px;
+	margin-top: -10px;
+	margin-right: -20px;
+}
+.noticias_widget{
 
+	background-color: #303030;
+	height: 240px;
+	border-radius: 5px;
+	margin-top: 21px;
+	max-width: 440px;
+	padding: 10px;
+}
+	.noticias_widget h2{
+		font-size: 14px;
+		margin-bottom: 0px;
+	}
+	.noticias_widget hr{
+		margin: 3px 0px;
+	}
+	.noticias_widget img{
+		padding: 0px;
+		margin-top: -20px;
+	}
 /* footer */
 footer{
 	border-top: 5px solid #ffbb13;
