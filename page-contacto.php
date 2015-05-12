@@ -71,8 +71,6 @@
 						<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 					<?php endif; ?>
 					
-				
-				 <div class="six columns">
 
              <?php if(isset($emailSent) && $emailSent == true) { ?>
              <div class="alert alert-success">
