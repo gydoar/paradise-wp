@@ -24,7 +24,7 @@
 				<h3>SOCIAL</h3>
 				<div class="under--line--footer"></div>
 				<ul class="social__footer">
-					<li><a target="_blank" href="https://www.facebook.com/pages/Paradise-Escorts-Bogotá-18/1602073993344060">Paradise_Bogota</a></li>
+					<li><a target="_blank" href="https://www.facebook.com/pages/Paradise-Escorts-Bogotá-18/1602073993344060">Paradise Escorts Bogotá</a></li>
 					<li><a target="_blank" href="https://twitter.com/Paradise_Bogota">@Paradise_Bogota</a></li>
 					<li><a target="_blank" href="https://instagram.com/paradise_bogota/">Paradise_Bogota</a></li>
 				</ul>

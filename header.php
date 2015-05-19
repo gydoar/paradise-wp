@@ -45,13 +45,13 @@ function googleTranslateElementInit() {
 			</div>
 			<div class="seven columns offset-by-one">
 				<ul class="contact__header">
-					<li><a target="_blank" href="#"><img width="280" src="<?php bloginfo('template_url' ); ?>/library/img/icon-contact.png" alt=""></a></li>
+					<li><a target="_blank" href="tel:3165381492"><img width="280" src="<?php bloginfo('template_url' ); ?>/library/img/icon-contact.png" alt=""></a></li>
 
-					<li><a target="_blank" href="#"><img width="40" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt=""></a></li>
+					<li><a target="_blank" href="https://twitter.com/Paradise_Bogota"><img width="40" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt=""></a></li>
 
-					<li><a target="_blank" href="#"><img width="40" src="<?php bloginfo('template_url' ); ?>/library/img/icon-instagram.png" alt=""></a></li>
+					<li><a target="_blank" href="https://instagram.com/paradise_bogota/"><img width="40" src="<?php bloginfo('template_url' ); ?>/library/img/icon-instagram.png" alt=""></a></li>
 
-					<li><a target="_blank" href="#"><img width="40" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt=""></a></li>
+					<li><a target="_blank" href="https://www.facebook.com/pages/Paradise-Escorts-Bogot%C3%A1-18/1602073993344060"><img width="40" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt=""></a></li>
 				</ul>
 		
 				<div class="twelve columns">
