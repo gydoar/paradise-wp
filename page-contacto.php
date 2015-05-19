@@ -141,12 +141,14 @@
                 <?php } ?>
             </div>
 				</div>
+
+                <!-- widget --> 
+            <div class="container">
+                <?php get_footer('widget'); ?>
+            </div>
 					
-			</div>
-			<!-- widget -->	
-			<div class="container">
-				<?php get_footer('widget'); ?>
-			</div>
+		</div>
+			
 		</div>
 
 	</article>

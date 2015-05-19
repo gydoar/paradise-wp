@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 		<!-- Acompañanates inicio -->
+		<div class="page">
 		<div class="bg--acompanantes">
 			<div class="container">
 				<div class="ornament-top"><img width="548" src="<?php bloginfo('template_url' ); ?>/library/img/ornament_top.png" alt="">
@@ -81,6 +82,7 @@
 			<?php get_footer("widget"); ?>
 		</div>
 		</div>	
+	</div>
 	</div>
 
 <?php get_footer(); ?>
