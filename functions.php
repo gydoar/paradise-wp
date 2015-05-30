@@ -22,6 +22,7 @@ add_image_size('img_1', 352, 532, true );
 add_image_size('img_2', 256, 387, true );
 add_image_size('noticias', 254, 177, false );
 add_image_size('noticias_widget', 80, 80, false );
+add_image_size ('featured', 60, 60, true);
 
 
 if (class_exists('MultiPostThumbnails')) {
@@ -542,4 +543,45 @@ function mytheme_save_data($post_id) {
  delete_post_meta($post_id, $field['id'], $old);
  }
  }
+}
+
+/*------------------------------------*\
+    $HABILITAR METABOX
+\*------------------------------------*/
+
+add_filter( 'rwmb_meta_boxes', 'your_prefix_register_meta_boxes' );
+
+function your_prefix_register_meta_boxes( $meta_boxes ) {
+ 
+ $prefix = 'pr_';
+ // 1st meta box
+ $meta_boxes[] = array(
+  // Meta box id, UNIQUE per meta box. Optional since 4.1.5
+  'id'         => 'standard',
+  // Meta box title - Will appear at the drag and drop handle bar. Required.
+  'title'      => __( 'Standard Fields', 'your-prefix' ),
+  // Post types, accept custom post types as well - DEFAULT is 'post'. Can be array (multiple post types) or string (1 post type). Optional.
+  'post_types' => array( 'portfolio' ),
+  // Where the meta box appear: normal (default), advanced, side. Optional.
+  'context'    => 'normal',
+  // Order of meta box: high (default), low. Optional.
+  'priority'   => 'high',
+  // Auto save: true, false (default). Optional.
+  // List of meta fields
+  'width'       => 100,
+  'height'      => 100,
+  'fields'     => array(
+   
+   array(
+    'name'             => __( 'Image Advanced Upload', 'your-prefix' ),
+    'id'               => "{$prefix}img",
+    'type'             => 'image_advanced',
+    'max_file_uploads' => 10,
+    'width'       => 100,
+    'height'      => 100,
+   )
+  )
+ );
+
+ return $meta_boxes;
 }

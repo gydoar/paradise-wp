@@ -5,6 +5,11 @@
 			<div class="container portfolio">
 				<?php rewind_posts(); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+				<?php 
+							$id = get_the_ID();
+
+							$image_attributes = wp_get_attachment_image_src(get_post_thumbnail_id($id), 'full');
+						 ?>
 				<?php include('variables.php'); ?>
 				<!-- Inicio del Loop -->
 					<div class="four columns">
@@ -142,132 +147,21 @@
 					<!-- Portfolio Galeria -->
 					<div class="eight columns portfolio__galeria">
 
-						<p>
-
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
-
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'one-image',
-								        set_post_thumbnail_size( 54, 65, true )
-								    );
-								endif; ?>
-
-							</a>
-
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
-
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'two-image',
-								        set_post_thumbnail_size( 54, 65, true )
-								    );
-								endif; ?>
-
-							</a>
-
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
-
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'three-image',
-								        set_post_thumbnail_size( 54, 65, true )
-								    );
-								endif; ?>
-
-							</a>
-
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
-
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'four-image',
-								        set_post_thumbnail_size( 54, 65, true )
-								    );
-								endif; ?>
-
-							</a>
-
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
-
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'five-image',
-								        set_post_thumbnail_size( 54, 65, true )
-								    );
-								endif; ?>
-
-							</a>
-
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
-
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'six-image',
-								        set_post_thumbnail_size( 54, 65, true )
-								    );
-								endif; ?>
-
-							</a>
-
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
-
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'sevent-image',
-								        set_post_thumbnail_size( 54, 65, true )
-								    );
-								endif; ?>
-
-							</a>
-
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
-
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'eight-image',
-								        set_post_thumbnail_size( 54, 65, true )
-								    );
-								endif; ?>
-
-							</a>
-
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
-
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'nine-image',
-								        set_post_thumbnail_size( 54, 65, true )
-								    );
-								endif; ?>
-
-							</a>
-
-							<a class="fancybox" href="<?php echo $url; ?>" data-fancybox-group="gallery">
-
-								<?php if (class_exists('MultiPostThumbnails')) :
-								    MultiPostThumbnails::the_post_thumbnail(
-								        get_post_type(),
-								        'ten-image',
-								        set_post_thumbnail_size( 54, 65, true )
-								    );
-								endif; ?>
-
-							</a>
-
-							
-						</p>
-
 						
+
+						<?php $images = rwmb_meta( 'pr_img', 'type=image_advanced&size=featured'); ?>
+
+						<?php foreach ( $images as $image ): ?>
+
+							<div class="gallery">
+							
+				  				<a class="fancybox-effects-d" href="<?php echo $image['url']; ?>"><img src="<?php echo $image['url']; ?>"></a>
+
+
+				  			</div>
+
+						<?php endforeach; ?>
+
 					</div>
 
 					<!-- Datos complementarios -->
