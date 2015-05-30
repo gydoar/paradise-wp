@@ -60,7 +60,9 @@
 						</div>
 
 					<?php endwhile; ?>
+					
 
+					<div>
 					<!-- Bloque 2 -->
 					<?php rewind_posts(); ?>
 					<?php global $wp_query;
@@ -79,8 +81,9 @@
 						</div>
 
 					<?php endwhile; ?>
-
-
+					
+					</div>
+					<div>
 					<!-- Bloque 3 -->
 					<?php rewind_posts(); ?>
 					<?php global $wp_query;
@@ -99,7 +102,7 @@
 						</div>
 
 					<?php endwhile; ?>
-
+					</div>
 				</div>
 
 
