@@ -13,7 +13,7 @@
 					<!-- Bloque 1 -->
 					<?php rewind_posts(); ?>
 					<?php global $wp_query;
-					$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=4");
+					$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=4&order=asc");
 					
 					while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
@@ -28,11 +28,13 @@
 						</div>
 
 					<?php endwhile; ?>
-
+					<div>
+						
+					
 					<!-- Bloque 2 -->
 					<?php rewind_posts(); ?>
 					<?php global $wp_query;
-					$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=8&showposts=4&offset=4");
+					$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=8&showposts=4&offset=4&order=asc");
 					
 					while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
@@ -47,12 +49,14 @@
 						</div>
 
 					<?php endwhile; ?>
+					</div>
 
+					<div>
 
 					<!-- Bloque 3 -->
 					<?php rewind_posts(); ?>
 					<?php global $wp_query;
-					$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=-1&showposts=4&offset=8");
+					$wp_query = new WP_Query("post_type=portfolio&post_status=publish&posts_per_page=-1&showposts=4&offset=8&order=asc");
 					
 					while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
@@ -67,7 +71,7 @@
 						</div>
 
 					<?php endwhile; ?>
-
+				</div>
 				</div>
 
 
