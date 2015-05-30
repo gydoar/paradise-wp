@@ -126,9 +126,9 @@
 			Sólo puede entrar en este sitio web si es mayor de 18 años de edad, o al menos la mayoría de edad en la jurisdicción donde usted reside o del que se accede a esta página web. Si usted no cumple con estos requisitos, entonces usted NO ESTÁ AUTORIZADO, Y NO DEBE INGRESAR a este sitio web.</p>
 
 		<div class="marco_18">
-			<a href="close">SOY MAYOR DE 18 AÑOS</a>
+			<a href="http://paradise.suwwweb.com/">SOY MAYOR DE 18 AÑOS</a>
 		</div>
-		<a href="">No entrar</a>
+		<a href="http://google.com/">No entrar</a>
 	</div>
 
 <?php get_footer(); ?>
