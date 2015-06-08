@@ -118,7 +118,7 @@
 		</div>
 		</div>	
 	</div>
-
+	<!--
 	<div class="popup_inicio" id="hidden_link">
 		
 		<p>!MUY IMPORTANTE! ESTE SITIO CONTIENE MATERIAL PARA ADULTOS E IMÁGENES DE SEXO. <br><br>
@@ -130,5 +130,5 @@
 		</div>
 		<a href="http://google.com/">No entrar</a>
 	</div>
-
+	-->
 <?php get_footer(); ?>
