@@ -29,7 +29,7 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 @import url(library/css/owl.carousel.css);
 @import url(library/css/owl.theme.css);
 @import url(library/css/jquery.fancybox.css?v=2.1.5);
-
+@import url(library/css/meanmenu.css);
 
 
 @font-face {
@@ -142,11 +142,6 @@ header{
 		}
 			.nav_header li a:hover, .nav_header li a:focus, .nav_header li a:active{
 			border-bottom: 2px solid #ffbb13;
-			}
-
-			.nav_header li a:hover:before, .nav_header li a:hover:after{
-				content:'  ' url(library/img/icon-star.png) '   ' ;
-
 			}
 
 
@@ -587,7 +582,4 @@ img{
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		#imagenFlotante{
-			display: none;
-		}
 	}

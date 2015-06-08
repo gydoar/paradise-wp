@@ -45,7 +45,7 @@
 <script src="<?php bloginfo('template_url' ); ?>/library/js/owl.carousel.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/jquery.fancybox.js?v=2.1.5"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/jquery.fancybox-media.js?v=1.0.6"></script>
-
+<script src="<?php bloginfo('template_url' ); ?>/library/js/jquery.meanmenu.2.0.min.js"></script>
 
 <script>
 	$(document).ready(function() {
@@ -122,6 +122,12 @@
     $(document).ready(function() {
         $("#hidden_link").fancybox().trigger('click');
     });
+</script>
+
+<script>
+jQuery(document).ready(function () {
+    $('header nav').meanmenu();
+});
 </script>
 <!--/ script -->
 

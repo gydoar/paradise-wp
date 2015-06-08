@@ -134,13 +134,13 @@ function optionsframework_options() {
 		'name' => __( 'Link video 1', 'theme-textdomain' ),
 		'desc' => __( '', 'theme-textdomain' ),
 		'id' => 'link_1',
-		'std' => '',
+		'std' => 'Agregar link de VIMEO',
 		'type' => 'text'
 	);
 
 	$options[] = array(
 		'name' => __( 'Link video 2', 'theme-textdomain' ),
-		'desc' => __( '', 'theme-textdomain' ),
+		'desc' => __( 'Agregar link de VIMEO', 'theme-textdomain' ),
 		'id' => 'link_2',
 		'std' => '',
 		'type' => 'text'

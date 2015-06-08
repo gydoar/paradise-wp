@@ -147,7 +147,7 @@
 					</div>
 						
 					<!-- Portfolio Galeria -->
-					<div class="eight columns portfolio__galeria">				
+					<div class="eight columns portfolio__galeria">		
 
 						<?php $images = rwmb_meta( 'pr_img', 'type=image_advanced&size=featured'); ?>
 
