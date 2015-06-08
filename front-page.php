@@ -4,11 +4,11 @@
 
 	<div id="owl-demo" class="owl-carousel owl-theme">
 	 
-	  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/banners/01.jpg" alt="The Last of us"></div>
+	  <div class="item"><img src="<?php echo of_get_option('slide_1'); ?>" alt="The Last of us"></div>
 
-	  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/banners/02.jpg" alt="The Last of us"></div>
+	  <div class="item"><img src="<?php echo of_get_option('slide_2'); ?>" alt="The Last of us"></div>
 
-	  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/banners/01.jpg" alt="The Last of us"></div>
+	  <div class="item"><img src="<?php echo of_get_option('slide_3'); ?>" alt="The Last of us"></div>
 	 
 	</div>
 
@@ -22,13 +22,13 @@
 				<div class="four columns">
 					<h2>Nuestras Acompañantes</h2>
 					<div class="under--line"></div>
-					<p>Nuestras acompañantes dejarán volar sus fantasías con su encanto; ellas harán que una fiesta sea la mejor que hayas tenido o simplemente solicítalas para satisfacer tus necesidades carnales, estamos seguros que superarán tus expectativas.<br><br>Con nuestras PARADISE ESCORTS en Bogotá, harás realidad tus deseos más salvajes.</p>
+					<p><?php echo of_get_option('text_acomp'); ?></p>
 				</div>
 				<div class="four columns">
-					<a class="fancybox-media" href="https://vimeo.com/126855036"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
+					<a class="fancybox-media" href="<?php echo of_get_option('link_1'); ?>"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
 				</div>
 				<div class="four columns">
-					<a class="fancybox-media" href="https://vimeo.com/126855036"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
+					<a class="fancybox-media" href="<?php echo of_get_option('link_2'); ?>"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
 				</div>
 			</div>
 		</div>

@@ -13,10 +13,10 @@
 				<h3>CONTACTO</h3>
 				<div class="under--line--footer"></div>
 				<ul class="contact__footer">
-					<li><a href="#">Bogotá - Colombia</a></li>
-					<li><a href="mailto:info@escortsbogota.co">info@escortsbogota.co</a></li>
-					<li><a href="skype:skype:@paradise_bogota?call">Paradise_Bogota</a></li>
-					<li><a href="#">(+57 1) 316 538 1492 - 319 560 8351</a></li>
+					<li><a href="#"><?php echo of_get_option('ciudad'); ?></a></li>
+					<li><a href="mailto:<?php echo of_get_option('email'); ?>"><?php echo of_get_option('email'); ?></a></li>
+					<li><a href="skype:skype:@<?php echo of_get_option('skype'); ?>?call">Paradise_Bogota</a></li>
+					<li><a href="#"><?php echo of_get_option('telefonos'); ?></a></li>
 				</ul>
 			</div>
 
@@ -24,9 +24,9 @@
 				<h3>SOCIAL</h3>
 				<div class="under--line--footer"></div>
 				<ul class="social__footer">
-					<li><a target="_blank" href="https://www.facebook.com/pages/Paradise-Escorts-Bogotá-18/1602073993344060">Paradise Escorts Bogotá</a></li>
-					<li><a target="_blank" href="https://twitter.com/Paradise_Bogota">@Paradise_Bogota</a></li>
-					<li><a target="_blank" href="https://instagram.com/paradise_bogota/">Paradise_Bogota</a></li>
+					<li><a target="_blank" href="<?php echo of_get_option('facebook'); ?>">Paradise Escorts Bogotá</a></li>
+					<li><a target="_blank" href="<?php echo of_get_option('twitter'); ?>">@Paradise_Bogota</a></li>
+					<li><a target="_blank" href="<?php echo of_get_option('instagram'); ?>">Paradise_Bogota</a></li>
 				</ul>
 			</div>
 		</div>

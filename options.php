@@ -99,11 +99,111 @@ function optionsframework_options() {
 	);
 
 	$options[] = array(
-		'name' => __( 'Example', 'theme-textdomain' ),
-		'desc' => __( 'A mini text input field.', 'theme-textdomain' ),
-		'id' => 'example',
-		'std' => 'Default',
-		'class' => 'mini',
+		'name' => __( 'Slide 1', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'slide_1',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'Slide 2', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'slide_2',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'Slide 3', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'slide_3',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'Nuestras acompañantes', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'text_acomp',
+		'std' => '<p>Nuestras acompañantes dejarán volar sus fantasías con su encanto; ellas harán que una fiesta sea la mejor que hayas tenido o simplemente solicítalas para satisfacer tus necesidades carnales, estamos seguros que superarán tus expectativas.<br><br>Con nuestras PARADISE ESCORTS en Bogotá, harás realidad tus deseos más salvajes.</p>',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'Link video 1', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'link_1',
+		'std' => '',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Link video 2', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'link_2',
+		'std' => '',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'FOOTER', 'theme-textdomain' ),
+		'type' => 'heading'
+	);
+
+	$options[] = array(
+		'name' => __( 'Ciudad', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'ciudad',
+		'std' => 'Bogotá - Colombia',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Email', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'email',
+		'std' => 'info@escortsbogota.co',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Skype', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'skype',
+		'std' => 'paradise_bogota',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Telefonos', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'telefonos',
+		'std' => '(+57 1) 316 538 1492 - 319 560 8351',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Facebook', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'facebook',
+		'std' => 'https://www.facebook.com/pages/Paradise-Escorts-Bogotá-18/1602073993344060',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Twitter', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'twitter',
+		'std' => 'https://twitter.com/Paradise_Bogota',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Instagram', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'instagram',
+		'std' => 'https://instagram.com/paradise_bogota/',
 		'type' => 'text'
 	);
 

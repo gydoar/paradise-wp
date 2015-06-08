@@ -5,11 +5,13 @@
 			<div class="container portfolio">
 				<?php rewind_posts(); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
 				<?php 
 							$id = get_the_ID();
 
 							$image_attributes = wp_get_attachment_image_src(get_post_thumbnail_id($id), 'full');
 						 ?>
+
 				<?php include('variables.php'); ?>
 				<!-- Inicio del Loop -->
 					<div class="four columns">
@@ -145,9 +147,7 @@
 					</div>
 						
 					<!-- Portfolio Galeria -->
-					<div class="eight columns portfolio__galeria">
-
-						
+					<div class="eight columns portfolio__galeria">				
 
 						<?php $images = rwmb_meta( 'pr_img', 'type=image_advanced&size=featured'); ?>
 
@@ -156,7 +156,6 @@
 							<div class="gallery">
 							
 				  				<a class="fancybox-effects-d" href="<?php echo $image['url']; ?>"><img src="<?php echo $image['url']; ?>"></a>
-
 
 				  			</div>
 
