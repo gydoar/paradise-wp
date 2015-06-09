@@ -212,7 +212,7 @@
 										</ul>
 									</div>
 									<div class="six columns">
-										<ul style="color:#ffffff; text-align:center;"class="twelve columns datos__modelo__list">
+										<ul style="color:#ffffff; text-align:center;" class="twelve columns datos__modelo__list">
 											<li><?php echo $anal; ?></li>
 											<li><?php echo $juguetes_sexuales; ?></li>
 											<li><?php echo $lluvia_dorada; ?></li>
