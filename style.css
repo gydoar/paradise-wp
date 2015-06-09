@@ -563,6 +563,10 @@ img{
 	height: auto;
 }
 
+.portfolio__galeria img{
+	width: 59px;
+	height: 59px;
+}
 
 /*------------------------------------*\
     $STYLE WARNING

@@ -22,7 +22,7 @@ add_image_size('img_1', 352, 532, true );
 add_image_size('img_2', 256, 387, true );
 add_image_size('noticias', 254, 177, false );
 add_image_size('noticias_widget', 80, 80, false );
-add_image_size ('featured', 59, 59, true);
+add_image_size ('featured', 800, 800, true);
 
 
 

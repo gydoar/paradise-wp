@@ -155,7 +155,7 @@
 
 							<div class="gallery">
 							
-				  				<a class="fancybox-effects-d" href="<?php echo $image['url']; ?>"><img src="<?php echo $image['url']; ?>"></a>
+				  				<a class="fancybox" data-fancybox-group="gallery" href="<?php echo $image['url']; ?>"><img src="<?php echo $image['url']; ?>"></a>
 
 				  			</div>
 
