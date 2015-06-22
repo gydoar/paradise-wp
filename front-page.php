@@ -25,11 +25,24 @@
 					<p><?php echo of_get_option('text_acomp'); ?></p>
 				</div>
 				<div class="four columns">
-					<a class="fancybox-media" href="<?php echo of_get_option('link_1'); ?>"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
+					<a class="fancybox-media" href="#video1"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
 				</div>
 				<div class="four columns">
-					<a class="fancybox-media" href="<?php echo of_get_option('link_2'); ?>"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
+					<a class="fancybox-media" href="#video2"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
 				</div>
+			</div>
+
+			<!-- Videos iframe -->
+			<div id="video1" style="width:800px;display: none;">
+				<video width="800" height="520" controls>
+				  <source src="<?php bloginfo('template_url' ); ?>/library/videos/video1.mp4" type="video/mp4">
+				</video>
+			</div>
+
+			<div id="video2" style="width:800px;display: none;">
+				<video width="800" height="520" controls>
+				  <source src="<?php bloginfo('template_url' ); ?>/library/videos/video2.mp4" type="video/mp4">
+				</video>
 			</div>
 		</div>
 
