@@ -488,6 +488,7 @@ footer{
 	.contact__footer li a, .social__footer li a{
 		text-decoration: none;
 		color: #ffffff;
+		list-style: none;
 	}
 	.contact__footer li:first-child{
 		 list-style-image: url(library/img/icon-map.png);
@@ -568,6 +569,18 @@ img{
 	height: 59px;
 }
 
+.cwv3_dialog .cwv3_title{
+	background: #FFC100 !important;	
+}
+.cwv3_dialog .cwv3_btns .cwv3_enter a{
+	background: #FFC100 !important;	
+}
+.cwv3_dialog .cwv3_btns .cwv3_exit a{
+	background: rgba(255, 193, 0, 0.73) !important;
+}
+.cwv3_dialog .cwv3_btns{
+	background: rgba(0, 0, 0, 0.72) !important;
+}
 /*------------------------------------*\
     $STYLE WARNING
 \*------------------------------------*/
