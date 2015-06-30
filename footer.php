@@ -13,6 +13,12 @@
 				<h3>CONTACTO</h3>
 				<div class="under--line--footer"></div>
 				<ul class="contact__footer">
+					<li><img src="<?php bloginfo('template_url' ); ?>/library/img/icon-map.png" alt=""></li>
+					<li><img src="<?php bloginfo('template_url' ); ?>/library/img/icon-mail.png" alt=""></li>
+					<li><img src="<?php bloginfo('template_url' ); ?>/library/img/icon-skype.png" alt=""></li>
+					<li><img src="<?php bloginfo('template_url' ); ?>/library/img/icon-whatsapp.png" alt=""></li>
+				</ul>
+				<ul class="contact__footer">
 					<li><a href="#"><?php echo of_get_option('ciudad'); ?></a></li>
 					<li><a href="mailto:<?php echo of_get_option('email'); ?>"><?php echo of_get_option('email'); ?></a></li>
 					<li><a href="skype:skype:@<?php echo of_get_option('skype'); ?>?call">Paradise_Bogota</a></li>
@@ -23,6 +29,12 @@
 			<div class="four columns">
 				<h3>SOCIAL</h3>
 				<div class="under--line--footer"></div>
+
+				<ul class="social__footer">
+					<li><img src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook-footer.png" alt=""></li>
+					<li><img src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter-footer.png" alt=""></li>
+					<li><img src="<?php bloginfo('template_url' ); ?>/library/img/icon-instagram-footer.png" alt=""></li>
+				</ul>
 				<ul class="social__footer">
 					<li><a target="_blank" href="<?php echo of_get_option('facebook'); ?>">Paradise Escorts Bogotá</a></li>
 					<li><a target="_blank" href="<?php echo of_get_option('twitter'); ?>">@Paradise_Bogota</a></li>

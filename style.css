@@ -490,27 +490,42 @@ footer{
 		color: #ffffff;
 		list-style: none;
 	}
-	.contact__footer li:first-child{
-		 list-style-image: url(library/img/icon-map.png);
+
+	.contact__footer{
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
 	}
-	.contact__footer li:last-child{
-		 list-style-image: url(library/img/icon-whatsapp.png);
+	.contact__footer:last-child{
+		margin-left: 10px;
+		text-align: left;
+		vertical-align: middle;
 	}
-	.contact__footer li:nth-child(2){
-		 list-style-image: url(library/img/icon-mail.png);
+	.contact__footer li{
+		list-style: none;
 	}
-	.contact__footer li:nth-child(3){
-		 list-style-image: url(library/img/icon-skype.png);
+	.contact__footer:last-child li{
+		padding-bottom: 5px;
 	}
 
-	.social__footer li:first-child{
-		list-style-image: url(library/img/icon-facebook-footer.png);
+	
+	.social__footer{
+		display: inline-block;
+		vertical-align: middle;
+		text-align: center;
 	}
-	.social__footer li:last-child{
-		list-style-image: url(library/img/icon-instagram-footer.png);
+	.social__footer:last-child{
+		margin-left: 10px;
+		text-align: left;
 	}
-	.social__footer li:nth-child(2){
-		list-style-image: url(library/img/icon-twitter-footer.png);
+	.social__footer img{
+		text-align: center;
+	}
+	.social__footer li{
+		list-style: none;
+	}
+	.social__footer li a{
+		text-align: right;
 	}
 	
 .copyright{
