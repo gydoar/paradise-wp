@@ -248,7 +248,7 @@ min-height:1000px;
 	border-top: 1px solid #ffbb13;
 	border-bottom: 1px solid #ffbb13;
 	background: rgba(0,0,0,0.7);
-	height: 1000px;
+	min-height: 100%;
 	position: relative;
 }
 	.chichas--acompanantes div{
