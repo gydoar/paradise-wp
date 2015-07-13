@@ -243,7 +243,7 @@ min-height:1000px;
 	.bg--acompanantes h2{
 		font-size: 28px;
 	}
-.chichas--acompanantes{
+.chichas--acompanantes, .chichas--acompanantes2{
 	padding: 40px 20px;
 	border-top: 1px solid #ffbb13;
 	border-bottom: 1px solid #ffbb13;
@@ -251,10 +251,13 @@ min-height:1000px;
 	min-height: 100%;
 	position: relative;
 }
-	.chichas--acompanantes div{
+.chichas--acompanantes2{
+	height: 1000px;
+}
+	.chichas--acompanantes div, .chichas--acompanantes2 div{
 		text-align: center;
 	}
-	.chichas--acompanantes img{
+	.chichas--acompanantes img, .chichas--acompanantes2 div{
 		overflow: hidden;
 		opacity: 0.5;
 		transition: all 0.5s linear;
@@ -262,7 +265,7 @@ min-height:1000px;
 					-moz-transition: all 0.5s linear;
 						-o-transition: all 0.5s linear;
 	}
-		.chichas--acompanantes img:hover{
+		.chichas--acompanantes img:hover, .chichas--acompanantes2 img:hover{
 			opacity: 1;
 			transition: all 0.5s linear;
 				-webkit-transition: all 0.5s linear;
@@ -624,8 +627,5 @@ img{
 	@media only screen and (max-width: 479px) {
 		.tarifas ul{
 			width: 50%;
-		}
-		.chichas--acompanantes{
-			height: 5300px;
 		}
 	}

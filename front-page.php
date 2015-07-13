@@ -53,7 +53,7 @@
 					<h2>Acompañantes</h2>
 				</div>
 	
-				<div class="chichas--acompanantes">
+				<div class="chichas--acompanantes2">
 
 					<!-- Bloque 1 -->
 					<?php rewind_posts(); ?>
@@ -119,10 +119,7 @@
 				</div>
 
 
-				<!-- Bloque 2 -->
-
-
-
+				<!-- Bloque 3 -->
 
 				<div class="ornament-top"><img width="270" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-bottom.png" alt="">
 				</div>
