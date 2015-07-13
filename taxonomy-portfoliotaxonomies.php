@@ -77,9 +77,6 @@
 
 				<!-- Bloque 2 -->
 
-
-
-
 				<div class="ornament-top"><img width="270" src="<?php bloginfo('template_url' ); ?>/library/img/ornament-bottom.png" alt="">
 				</div>
 		<div>
