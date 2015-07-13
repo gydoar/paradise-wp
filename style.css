@@ -252,12 +252,14 @@ min-height:1000px;
 	position: relative;
 }
 .chichas--acompanantes2{
+	min-height: none;
 	height: 1000px;
 }
+
 	.chichas--acompanantes div, .chichas--acompanantes2 div{
 		text-align: center;
 	}
-	.chichas--acompanantes img, .chichas--acompanantes2 div{
+	.chichas--acompanantes img, .chichas--acompanantes2 img{
 		overflow: hidden;
 		opacity: 0.5;
 		transition: all 0.5s linear;
