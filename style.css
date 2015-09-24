@@ -595,15 +595,7 @@ img{
 .cwv3_dialog .cwv3_title{
 	background: #FFC100 !important;	
 }
-.cwv3_dialog .cwv3_btns .cwv3_enter a{
-	background: #FFC100 !important;	
-}
-.cwv3_dialog .cwv3_btns .cwv3_exit a{
-	background: rgba(255, 193, 0, 0.73) !important;
-}
-.cwv3_dialog .cwv3_btns{
-	background: rgba(0, 0, 0, 0.72) !important;
-}
+
 .cwv3{
 	background: rgba(0,0,0,0.93);
 	border-top: 2px solid #ffbb32;
