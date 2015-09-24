@@ -107,11 +107,27 @@ function optionsframework_options() {
 	);
 
 	$options[] = array(
+		'name' => __( 'Link Slide 1', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'slide_1_link',
+		'std' => 'http://escortsbogota.co/servicios/',
+		'type' => 'text'
+	);
+
+	$options[] = array(
 		'name' => __( 'Slide 2', 'theme-textdomain' ),
 		'desc' => __( '', 'theme-textdomain' ),
 		'id' => 'slide_2',
 		'std' => '',
 		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'Link Slide 2', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'slide_2_link',
+		'std' => 'http://escortsbogota.co/trabaje-con-nosotros/',
+		'type' => 'text'
 	);
 
 	$options[] = array(
@@ -121,6 +137,15 @@ function optionsframework_options() {
 		'std' => '',
 		'type' => 'upload'
 	);
+
+	$options[] = array(
+		'name' => __( 'Link Slide 3', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'slide_3_link',
+		'std' => 'http://escortsbogota.co/servicios/',
+		'type' => 'text'
+	);
+
 
 	$options[] = array(
 		'name' => __( 'Nuestras acompañantes', 'theme-textdomain' ),

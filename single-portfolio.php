@@ -15,7 +15,7 @@
 				<?php include('variables.php'); ?>
 				<!-- Inicio del Loop -->
 					<div class="four columns">
-						<div class="ornament-top"><img width="548" src="<?php bloginfo('template_url' ); ?>/library/img/ornament_top.png" alt="">
+						<div class="ornament-top"><img width="548px" src="<?php bloginfo('template_url' ); ?>/library/img/ornament_top.png" alt="">
 							<h3><?php the_title(); ?></h3>
 						</div>
 							<div class="under--line--portfolio"></div>
@@ -31,7 +31,7 @@
 								<h4>Tarifa</h4>
 								<div class="under--line--footer"></div>
 								<div class="row">
-									<div class="six columns">
+									<div class="six columns col1">
 										<ul class="six columns tarifas__list">
 											<li>1 HORA</li>
 											<li>2 HORAS</li>
@@ -41,7 +41,7 @@
 											<li><?php echo $two_hora;?></li>
 										</ul>
 									</div>
-									<div class="six columns">
+									<div class="six columns col2">
 										<ul class="six columns tarifas__list">
 											<li>3 HORAS</li>
 											<li>12 HORAS</li>
@@ -56,7 +56,7 @@
 								<h4><img width="25" src="<?php bloginfo('template_url' ); ?>/library/img/icon-skype-big.png" alt=""> Video chat</h4>
 								<div class="under--line--footer"></div>
 								<div class="row">
-									<div class="six columns">
+									<div class="six columns col1">
 										<ul class="six columns tarifas__list">
 											<li>15 MIN</li>
 											<li>30 MIN</li>
@@ -66,7 +66,7 @@
 											<li><?php echo $thirty_minutes_chat; ?></li>
 										</ul>
 									</div>
-									<div class="six columns">
+									<div class="six columns col2">
 										<ul class="six columns tarifas__list">
 											<li>1 HORA</li>
 										</ul>
@@ -86,7 +86,7 @@
 						<div class="row">
 							<div class="six columns">
 								<div class="row">
-									<div class="six columns">
+									<div class="six columns col1">
 										<ul class="twelve columns datos__modelo__list">
 											<li>EDAD:</li>
 											<li>ESTATURA:</li>
@@ -98,7 +98,7 @@
 											<li>IDIOMAS:</li>
 										</ul>
 									</div>
-									<div class="six columns">
+									<div class="six columns col2">
 										<ul style="color:#ffffff; text-align:center;"class="twelve columns datos__modelo__list">
 											<li><?php echo $edad; ?></li>
 											<li><?php echo $estatura; ?></li>
@@ -115,7 +115,7 @@
 
 							<div class="six columns">
 								<div class="row">
-									<div class="six columns">
+									<div class="six columns col1">
 										<ul class="twelve columns datos__modelo__list">
 											<li>TATUAJES:</li>
 											<li>DISPONIBILIDAD:</li>
@@ -126,7 +126,7 @@
 											<li>CIRUGIAS:</li>
 										</ul>
 									</div>
-									<div class="six columns">
+									<div class="six columns col2">
 										<ul style="color:#ffffff; text-align:center;"class="twelve columns datos__modelo__list">
 											<li><?php echo $tatuajes; ?></li>
 											<li><?php echo $disponibilidad; ?></li>
@@ -171,7 +171,7 @@
 							
 							<div class="six columns">
 								<div class="row">
-									<div class="six columns">
+									<div class="six columns col1">
 										<ul class="twelve columns datos__modelo__list">
 											<li>SEXO ORAL:</li>
 											<li>SEXO ORAL NAT:</li>
@@ -183,7 +183,7 @@
 											<li>TRIO HMH:</li>
 										</ul>
 									</div>
-									<div class="six columns">
+									<div class="six columns col2">
 										<ul style="color:#ffffff; text-align:center;"class="twelve columns datos__modelo__list">
 											<li><?php echo $sexo_oral; ?></li>
 											<li><?php echo $sexo_oral_natural; ?></li>
@@ -200,7 +200,7 @@
 
 							<div class="six columns">
 								<div class="row">
-									<div class="six columns">
+									<div class="six columns col1">
 										<ul class="twelve columns datos__modelo__list">
 											<li>ANAL:</li>
 											<li>JUGUETES SEX:</li>
@@ -211,7 +211,7 @@
 											<li>SERVICIO NOVIA:</li>
 										</ul>
 									</div>
-									<div class="six columns">
+									<div class="six columns col2">
 										<ul style="color:#ffffff; text-align:center;" class="twelve columns datos__modelo__list">
 											<li><?php echo $anal; ?></li>
 											<li><?php echo $juguetes_sexuales; ?></li>

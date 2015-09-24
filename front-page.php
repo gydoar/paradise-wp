@@ -4,11 +4,11 @@
 
 	<div id="owl-demo" class="owl-carousel owl-theme">
 	 
-	  <div class="item"><img src="<?php echo of_get_option('slide_1'); ?>" alt="The Last of us"></div>
+	  <div class="item"><a href="<?php echo of_get_option('slide_1_link'); ?>"><img src="<?php echo of_get_option('slide_1'); ?>"></a></div>
 
-	  <div class="item"><img src="<?php echo of_get_option('slide_2'); ?>" alt="The Last of us"></div>
+	  <div class="item"><a href="<?php echo of_get_option('slide_2_link'); ?>"><img src="<?php echo of_get_option('slide_2'); ?>"></a></div>
 
-	  <div class="item"><img src="<?php echo of_get_option('slide_3'); ?>" alt="The Last of us"></div>
+	  <div class="item"><a href="<?php echo of_get_option('slide_3_link'); ?>"><img src="<?php echo of_get_option('slide_3'); ?>"></a></div>
 	 
 	</div>
 
@@ -24,10 +24,10 @@
 					<div class="under--line"></div>
 					<p><?php echo of_get_option('text_acomp'); ?></p>
 				</div>
-				<div class="four columns">
+				<div class="four columns col1-video">
 					<a class="fancybox-media" href="#video1"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
 				</div>
-				<div class="four columns">
+				<div class="four columns col2-video">
 					<a class="fancybox-media" href="#video2"><img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/img_video.jpg" alt=""></a>
 				</div>
 			</div>
