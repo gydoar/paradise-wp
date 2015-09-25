@@ -652,7 +652,9 @@ img{
 .six.columns.col5, .six.columns.col2.col3{
 	margin-left: 0px;
 }
-
+.cwv3_dialog .cwv3_btns .cwv3_enter{
+	background-size: 100% !important;
+}
 /*------------------------------------*\
     $STYLE WARNING
 \*------------------------------------*/
@@ -745,5 +747,8 @@ img{
 		}
 		.tax__img{
 			width: 100%;
+		}
+		.cwv3_dialog .cwv3_btns .cwv3_enter a, .cwv3_dialog .cwv3_btns .cwv3_exit a{
+			font-size: 14px !important;
 		}
 	}
