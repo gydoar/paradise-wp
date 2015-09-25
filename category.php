@@ -30,12 +30,11 @@
 							<?php endif; ?>
 							<?php wp_pagenavi(); ?>
 					</div>
-
 				</div>
 
 			</div>
 		</div>
 	</div>
-</article>
+</article> 
 
 <?php get_footer(); ?>

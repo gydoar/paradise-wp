@@ -22,7 +22,7 @@
 
 							<?php $url = wp_get_attachment_url( get_post_thumbnail_id($portfolio->ID) );?>
 							
-							<a class="fancybox-effects-d" href="<?php echo $url; ?>"><?php if (has_post_thumbnail()) {the_post_thumbnail('img_1');} ?></a>
+							<a class="fancybox-effects-d thum_port_1" href="<?php echo $url; ?>"><?php if (has_post_thumbnail()) {the_post_thumbnail('img_1');} ?></a>
 							
 								
 							<div class="under--line--portfolio"></div>
@@ -31,7 +31,7 @@
 								<h4>Tarifa</h4>
 								<div class="under--line--footer"></div>
 								<div class="row">
-									<div class="six columns col1">
+									<div class="six columns col1 col3">
 										<ul class="six columns tarifas__list">
 											<li>1 HORA</li>
 											<li>2 HORAS</li>
@@ -41,7 +41,7 @@
 											<li><?php echo $two_hora;?></li>
 										</ul>
 									</div>
-									<div class="six columns col2">
+									<div class="six columns col2 col3">
 										<ul class="six columns tarifas__list">
 											<li>3 HORAS</li>
 											<li>12 HORAS</li>
@@ -56,7 +56,7 @@
 								<h4><img width="25" src="<?php bloginfo('template_url' ); ?>/library/img/icon-skype-big.png" alt=""> Video chat</h4>
 								<div class="under--line--footer"></div>
 								<div class="row">
-									<div class="six columns col1">
+									<div class="six columns col1 col3">
 										<ul class="six columns tarifas__list">
 											<li>15 MIN</li>
 											<li>30 MIN</li>
@@ -66,7 +66,7 @@
 											<li><?php echo $thirty_minutes_chat; ?></li>
 										</ul>
 									</div>
-									<div class="six columns col2">
+									<div class="six columns col2 col3">
 										<ul class="six columns tarifas__list">
 											<li>1 HORA</li>
 										</ul>
@@ -84,7 +84,7 @@
 					<div class="eight columns datos__modelo">
 						<h4>Datos modelo y Servicios</h4>
 						<div class="row">
-							<div class="six columns">
+							<div class="six columns col5">
 								<div class="row">
 									<div class="six columns col1">
 										<ul class="twelve columns datos__modelo__list">
@@ -113,7 +113,7 @@
 								</div>
 							</div>
 
-							<div class="six columns">
+							<div class="six columns col5">
 								<div class="row">
 									<div class="six columns col1">
 										<ul class="twelve columns datos__modelo__list">
@@ -169,9 +169,9 @@
 						<div class="under--line--footer"><br><br></div><br><br>
 						<div class="row">
 							
-							<div class="six columns">
+							<div class="six columns col5">
 								<div class="row">
-									<div class="six columns col1 col3">
+									<div class="six columns col1">
 										<ul class="twelve columns datos__modelo__list">
 											<li>SEXO ORAL:</li>
 											<li>SEXO ORAL NAT:</li>
@@ -183,7 +183,7 @@
 											<li>TRIO HMH:</li>
 										</ul>
 									</div>
-									<div class="six columns col2 col4">
+									<div class="six columns col2">
 										<ul style="color:#ffffff; text-align:center;"class="twelve columns datos__modelo__list">
 											<li><?php echo $sexo_oral; ?></li>
 											<li><?php echo $sexo_oral_natural; ?></li>
@@ -198,7 +198,7 @@
 								</div>
 							</div>
 
-							<div class="six columns">
+							<div class="six columns col5">
 								<div class="row">
 									<div class="six columns col1">
 										<ul class="twelve columns datos__modelo__list">
