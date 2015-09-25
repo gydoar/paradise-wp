@@ -651,6 +651,7 @@ img{
 .six.columns.col5, .six.columns.col2.col3{
 	margin-left: 0px;
 }
+
 /*------------------------------------*\
     $STYLE WARNING
 \*------------------------------------*/
@@ -745,6 +746,9 @@ img{
 			display: none;
 		}
 		.thum_port_1 img{
+			width: 100%;
+		}
+		.tax__img{
 			width: 100%;
 		}
 	}
