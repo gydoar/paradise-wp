@@ -244,6 +244,7 @@ min-height:1000px;
 	}
 .chichas--acompanantes, .chichas--acompanantes2{
 	padding: 40px 20px;
+	text-align: center;
 	border-top: 1px solid #ffbb13;
 	border-bottom: 1px solid #ffbb13;
 	background: rgba(0,0,0,0.7);
