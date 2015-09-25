@@ -717,9 +717,6 @@ img{
 		.page__thumb img{
 			width: 100%;
 		}
-		.google_tra{
-			display: none;
-		}
 		.widget_thumb{
 			display: none;
 		}
@@ -739,9 +736,6 @@ img{
 		}
 		.page__thumb img{
 			width: 100%;
-		}
-		.google_tra{
-			display: none;
 		}
 		.widget_thumb{
 			display: none;
