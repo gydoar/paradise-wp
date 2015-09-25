@@ -474,6 +474,9 @@ footer{
 		font-size: 18px;
 		margin-bottom: 3px;
 	}
+	footer a{
+		font-size: 14px;
+	}
 .nav_footer{
 	padding-top: 20px;
 }
@@ -496,14 +499,35 @@ footer{
 		color: #ffffff;
 		list-style: none;
 	}
+	ul.social__footer li:first-child{
+		list-style-image: url(library/img/icon-facebook-footer.png) 
+	}
+	ul.social__footer li:nth-child(2){
+		list-style-image: url(library/img/icon-twitter-footer.png) 
+	}
+	ul.social__footer li:nth-child(3){
+		list-style-image: url(library/img/icon-instagram-footer.png) 
+	}
 
+	ul.contact__footer li:first-child{
+		list-style-image: url(library/img/icon-map.png)
+	}
+	ul.contact__footer li:nth-child(2){
+		list-style-image: url(library/img/icon-mail.png)
+	}
+	ul.contact__footer li:nth-child(3){
+		list-style-image: url(library/img/icon-skype.png)
+	}
+	ul.contact__footer li:nth-child(4){
+		list-style-image: url(library/img/icon-whatsapp.png)
+	}
 	.contact__footer{
 		display: inline-block;
 		vertical-align: top;
 		text-align: center;
 	}
-	.contact__footer:last-child{
-		margin-left: 10px;
+	.contact__footer{
+		margin-left: 20px;
 		text-align: left;
 		vertical-align: middle;
 	}
@@ -520,8 +544,8 @@ footer{
 		vertical-align: middle;
 		text-align: center;
 	}
-	.social__footer:last-child{
-		margin-left: 10px;
+	.social__footer{
+		margin-left: 30px;
 		text-align: left;
 	}
 	.social__footer img{
@@ -624,6 +648,7 @@ img{
 	padding: 3px 5px;
 	margin: 2px;
 }
+
 /*------------------------------------*\
     $STYLE WARNING
 \*------------------------------------*/
@@ -675,6 +700,9 @@ img{
 		.page__thumb img{
 			width: 100%;
 		}
+		.google_tra{
+			display: none;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -688,5 +716,8 @@ img{
 		}
 		.page__thumb img{
 			width: 100%;
+		}
+		.google_tra{
+			display: none;
 		}
 	}

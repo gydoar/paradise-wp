@@ -36,5 +36,6 @@
 			</div>
 		</div>
 	</div>
+</article>
 
 <?php get_footer(); ?>

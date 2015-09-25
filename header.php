@@ -31,7 +31,7 @@
 
 </head>
 <body>
-<div style="position:r" id="google_translate_element"></div>
+<div class="google_tra" id="google_translate_element"></div>
 
 <script type="text/javascript">
 function googleTranslateElementInit() {
