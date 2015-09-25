@@ -20,12 +20,23 @@ register_nav_menus(
 add_theme_support('post-thumbnails' );
 add_image_size('img_1', 352, 532, true );
 add_image_size('img_2', 256, 387, true );
-add_image_size('noticias', 254, 177, false );
+add_image_size('noticias', 254, 177, true);
 add_image_size('noticias_widget', 80, 80, false );
 add_image_size ('featured', 800, 800, true);
 
 
+// Longitud de fragmento
+function axemos_custom_excerpt_length( $length ) {
+return 30; // Numero de palabras a mostrar.
+}
 
+// Link leer mas
+function axemos_custom_excerpt_more($more) {
+global $post;
+return ' <a class="more-link" href="'. get_permalink($post->ID) . '">'. __(' Leer mas...', 'axemos') .'</a>';
+}
+add_filter('excerpt_more', 'axemos_custom_excerpt_more');
+add_filter( 'excerpt_length', 'axemos_custom_excerpt_length', 999 );
 /*------------------------------------*\
     $HABILITAR CUSTON POST EN EL LOOP
 \*------------------------------------*/

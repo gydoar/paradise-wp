@@ -171,7 +171,7 @@
 							
 							<div class="six columns">
 								<div class="row">
-									<div class="six columns col1">
+									<div class="six columns col1 col3">
 										<ul class="twelve columns datos__modelo__list">
 											<li>SEXO ORAL:</li>
 											<li>SEXO ORAL NAT:</li>
@@ -183,7 +183,7 @@
 											<li>TRIO HMH:</li>
 										</ul>
 									</div>
-									<div class="six columns col2">
+									<div class="six columns col2 col4">
 										<ul style="color:#ffffff; text-align:center;"class="twelve columns datos__modelo__list">
 											<li><?php echo $sexo_oral; ?></li>
 											<li><?php echo $sexo_oral_natural; ?></li>

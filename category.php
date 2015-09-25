@@ -12,19 +12,23 @@
 					
 						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 							
-							<div class="page__thumb four columns">
-								<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('noticias'); ?></a>
-							</div>
+							<div class="row page__noticias">
+								
+								<div class="page__thumb four columns">
+									<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('noticias'); ?></a>
+								</div>
 
-							<div class="eight columns">
-								<a href="<?php the_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
-								<p><?php the_excerpt(); ?></p>
+								<div class="eight columns">
+									<a href="<?php the_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
+									<p><?php the_excerpt(); ?></p>
+								</div>
+
 							</div>
 
 							<?php endwhile; else : ?>
 								<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 							<?php endif; ?>
-
+							<?php wp_pagenavi(); ?>
 					</div>
 
 				</div>
